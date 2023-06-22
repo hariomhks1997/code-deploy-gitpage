@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/code-deploy-gitpage/static/css/main.32cf8e2a.css",
-    "main.js": "/code-deploy-gitpage/static/js/main.1214fbcc.js",
+    "main.js": "/code-deploy-gitpage/static/js/main.d5ccde34.js",
     "static/js/787.f505f70d.chunk.js": "/code-deploy-gitpage/static/js/787.f505f70d.chunk.js",
     "index.html": "/code-deploy-gitpage/index.html",
     "main.32cf8e2a.css.map": "/code-deploy-gitpage/static/css/main.32cf8e2a.css.map",
-    "main.1214fbcc.js.map": "/code-deploy-gitpage/static/js/main.1214fbcc.js.map",
+    "main.d5ccde34.js.map": "/code-deploy-gitpage/static/js/main.d5ccde34.js.map",
     "787.f505f70d.chunk.js.map": "/code-deploy-gitpage/static/js/787.f505f70d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32cf8e2a.css",
-    "static/js/main.1214fbcc.js"
+    "static/js/main.d5ccde34.js"
   ]
 }
