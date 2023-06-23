@@ -46,25 +46,16 @@ export default function Navbar(props) {
               Search
             </button>
           </form>
-          <div
-            className={`form-check form-switch text-${
-              props.mode === "light" ? "dark" : "light"
-            }`}
-          >
-            <input
-              onClick={props.togglemode}
-              className="form-check-input"
-              type="checkbox"
-              role="switch"
-              id="flexSwitchCheckDefault"
-            />
-            <label
-              className="form-check-label"
-              htmlFor="flexSwitchCheckDefault"
-            >
-              Enable Dark Mode
-            </label>
+          <div className="d-flex">            
+          <div className="bg-primary rounded mx-2" onClick={()=>{props.togglemode("primary")}} style={{height:"30px",width:"30px",cursor:"pointer",border:"4px solid pink"}}></div>
+             <div className="bg-danger rounded mx-2" onClick={()=>{props.togglemode("danger")}} style={{height:"30px",width:"30px",cursor:"pointer",border:"4px solid pink"}}></div>          
+              <div className="bg-success rounded mx-2" onClick={()=>{props.togglemode("success")}} style={{height:"30px",width:"30px",cursor:"pointer",border:"4px solid pink"}}></div>
+             <div className="bg-warning rounded mx-2" onClick={()=>{props.togglemode("warning")}} style={{height:"30px",width:"30px",cursor:"pointer",border:"4px solid pink"}}></div>
+             <div className="bg-light rounded mx-2" onClick={()=>{props.togglemode("light")}} style={{height:"30px",width:"30px",cursor:"pointer",border:"4px solid pink"}}></div>
+             <div className="bg-dark rounded mx-2" onClick={()=>{props.togglemode("dark")}} style={{height:"30px",width:"30px",cursor:"pointer",border:"4px solid pink"}}></div>
+             
           </div>
+          
           
         </div>
       </div>

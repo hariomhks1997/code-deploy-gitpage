@@ -25,7 +25,7 @@ export default function TextForm(props) {
   }
   const handleExtraSpaces=()=>{
     let newtext=text.split(/[ ]+/)
-    console.log(newtext)
+  
     setText(newtext.join(" "))
     props.showAlert("Remove Extra Spaces","Sucess")
   }
@@ -33,7 +33,7 @@ export default function TextForm(props) {
   const [text, setText] = useState("");
   return (
     <>
-      <div className="container" style={{color: props.mode === "dark" ? "white" : "#042743"}}>
+      <div className="container" style={{color: props.mode === "dark" ? "#042743" : "white"}}>
         <h1>{props.heading}</h1>
         <div className="mb-3">
           <textarea
@@ -60,7 +60,7 @@ export default function TextForm(props) {
           Remove Extra Spaces
         </button>
       </div>
-      <div className="container my-2" style={{color: props.mode === "dark" ? "white" : "#042743"}}>
+      <div className="container my-2" style={{color: props.mode === "dark" ? "#042743" : "white"}}>
         <h2>Your Text Summary</h2>
         <p>
           word {text.split(" ").filter((element)=>{return element.length!==0}).length} character{text.length}
