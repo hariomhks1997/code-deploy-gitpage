@@ -8,7 +8,7 @@ import Alert from "./components/Alert";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
-  const [mode, setmode] = useState("light");
+  const [mode, setmode] = useState("dark");
  const removeBodyClasses=()=>{
                 document.body.classList.remove("bg-light");
                 document.body.classList.remove("bg-success");
